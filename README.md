@@ -5,6 +5,29 @@ This is a todo list web application project made in reactjs ⚛️ to understand
 [![ReactJS](https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white&labelColor=000000)]()
 [![JavaScript](https://img.shields.io/badge/javascript-ead547?style=for-the-badge&logo=javascript&logoColor=white&labelColor=000000)]()
 
+# Requirements
+
+`nvm use v18.16.1`
+
+`npm install`
+
+# How to run
+### For development environment
+`npm run dev`
+
+# How to run in docker 🐳
+### In Mac 🍎 or Linux 🐧
+`make docker-dev-up`
+
+#### For shutdown
+`make docker-dev-down`
+
+### In Windows 🪟
+`source run.sh; docker_dev_up`
+
+#### For shutdown
+`source run.sh; docker_dev_down`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
