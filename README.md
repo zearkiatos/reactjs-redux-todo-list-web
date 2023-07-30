@@ -2,6 +2,7 @@
 This is a todo list web application project made in reactjs ⚛️ to understand, practice and learn redux
 
 ![Github](https://github.com/zearkiatos/reactjs-redux-todo-list-web/actions/workflows/action.yml/badge.svg)
+![GitlabCI](https://gitlab.com/caprilespe/reactjs-redux-todo-list-web/badges/develop/pipeline.svg)
 
 # Made with
 [![ReactJS](https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white&labelColor=000000)]()
@@ -10,6 +11,7 @@ This is a todo list web application project made in reactjs ⚛️ to understand
 # Project link
 
 Github: [https://zearkiatos.github.io/reactjs-redux-todo-list-web/](https://zearkiatos.github.io/reactjs-redux-todo-list-web/)
+Gitlab 🦊: [https://caprilespe.gitlab.io/reactjs-redux-todo-list-web/](https://caprilespe.gitlab.io/reactjs-redux-todo-list-web/)
 
 # Requirements
 
