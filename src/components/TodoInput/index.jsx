@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import { connect } from "react-redux";
-import { itemActions } from "../../actions"; 
+import { itemActions } from "../../actions";
 
 const TodoInput = ({ addItem }) => {
   const [value, setValue] = useState("");
@@ -9,9 +9,10 @@ const TodoInput = ({ addItem }) => {
     (event) => {
       event.preventDefault();
 
+      itemActions.addItem(value);
       setValue("");
     },
-    [setValue]
+    [setValue, addItem, value]
   );
 
   return (
@@ -22,10 +23,10 @@ const TodoInput = ({ addItem }) => {
   );
 };
 
-const mapDispatchToProps = dispatch => {
-    return ({
-        addItem: itemActions.addItem
-    })
-}
+const mapDispatchToProps = (dispatch) => {
+  return {
+    addItem: itemActions.addItem,
+  };
+};
 
 export default connect(null, mapDispatchToProps)(TodoInput);

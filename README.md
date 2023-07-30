@@ -3,6 +3,7 @@ This is a todo list web application project made in reactjs ⚛️ to understand
 
 ![Github](https://github.com/zearkiatos/reactjs-redux-todo-list-web/actions/workflows/action.yml/badge.svg)
 ![GitlabCI](https://gitlab.com/caprilespe/reactjs-redux-todo-list-web/badges/develop/pipeline.svg)
+![TravisCI](https://api.travis-ci.com/zearkiatos/reactjs-redux-todo-list-web.svg?branch=develop)
 
 # Made with
 [![ReactJS](https://img.shields.io/badge/react-61dafb?style=for-the-badge&logo=react&logoColor=white&labelColor=000000)]()
