@@ -9,7 +9,7 @@ const TodoInput = ({ addItem }) => {
     (event) => {
       event.preventDefault();
 
-      itemActions.addItem(value);
+      addItem(value);
       setValue("");
     },
     [setValue, addItem, value]
@@ -25,7 +25,7 @@ const TodoInput = ({ addItem }) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    addItem: itemActions.addItem,
+    addItem: (value) => dispatch(itemActions.addItem(value)),
   };
 };
 

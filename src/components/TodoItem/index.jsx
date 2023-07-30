@@ -1,3 +1,7 @@
-const TodoItem = () => <h2>Todo Item</h2>;
+const TodoItem = ({ item }) => (
+  <p>
+    {item} <span>❌</span>
+  </p>
+);
 
 export default TodoItem;
