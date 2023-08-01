@@ -6,4 +6,9 @@ const addItem = (value) => ({
   },
 });
 
-export { addItem };
+const removeItem = (value) => ({
+  type: ITEM_TYPES.REMOVE_ITEM,
+  payload: value,
+});
+
+export { addItem, removeItem };

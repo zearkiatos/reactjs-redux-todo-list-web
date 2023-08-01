@@ -1,9 +1,15 @@
 import { useCallback } from "react";
 import { connect } from "react-redux";
 import TodoItem from "../TodoItem";
+import { itemActions } from "../../actions";
 
-const TodoList = ({ list }) => {
-  const onClickRemove = useCallback((item) => {}, []);
+const TodoList = ({ list, removeItem }) => {
+  const onClickRemove = useCallback(
+    (item) => {
+      removeItem(item);
+    },
+    [removeItem]
+  );
 
   return (
     <div>
@@ -16,10 +22,15 @@ const TodoList = ({ list }) => {
 };
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return {
     list: state.itemReducers.items,
   };
 };
 
-export default connect(mapStateToProps)(TodoList);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    removeItem: (value) => dispatch(itemActions.removeItem(value)),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(TodoList);

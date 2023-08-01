@@ -1,7 +1,11 @@
-const TodoItem = ({ item }) => (
+const TodoItem = ({ item, onClickRemove }) => {
+  console.log(item);
+  
+  return (
   <p>
-    {item} <span>❌</span>
+    
+    {item} <button type="button" onClick={() => onClickRemove(item)}>❌</button>
   </p>
-);
+)};
 
 export default TodoItem;

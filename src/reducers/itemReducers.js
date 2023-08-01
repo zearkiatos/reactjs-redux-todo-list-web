@@ -14,6 +14,10 @@ const actions = {
     ...state,
     items: [...state.items, payload],
   }),
+  [ITEM_TYPES.REMOVE_ITEM]: (state, payload) => ({
+    ...state,
+    items: state.items.filter((item) => item.item !== payload),
+  }),
 };
 
 export default itemReducers;
