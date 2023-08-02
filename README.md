@@ -12,8 +12,12 @@ This is a todo list web application project made in reactjs ⚛️ to understand
 # Project link
 
 Github: [https://zearkiatos.github.io/reactjs-redux-todo-list-web/](https://zearkiatos.github.io/reactjs-redux-todo-list-web/)
+
 Gitlab 🦊: [https://caprilespe.gitlab.io/reactjs-redux-todo-list-web/](https://caprilespe.gitlab.io/reactjs-redux-todo-list-web/)
+
 Vercel: [https://reactjs-redux-todo-list-web.vercel.app/](https://reactjs-redux-todo-list-web.vercel.app/)
+
+Netlify: [https://reactjs-redux-todo-list-web.netlify.app/](https://reactjs-redux-todo-list-web.netlify.app/)
 
 # Requirements
 
