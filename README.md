@@ -19,6 +19,8 @@ Vercel: [https://reactjs-redux-todo-list-web.vercel.app/](https://reactjs-redux-
 
 Netlify: [https://reactjs-redux-todo-list-web.netlify.app/](https://reactjs-redux-todo-list-web.netlify.app/)
 
+Firebase 🔥: [https://reactjs-redux-todo-list-web.web.app/](https://reactjs-redux-todo-list-web.web.app/)
+
 # Requirements
 
 `nvm use v18.16.1`
