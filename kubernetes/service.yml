@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2023-07-30T17:19:56Z"
+  labels:
+    app: reactjs-redux-todo-list-web
+  name: reactjs-redux-todo-list-web
+  namespace: default
+  resourceVersion: "13046"
+  uid: a10fdf0c-ec60-4d41-bf3f-f4a2ecfb6383
+spec:
+  allocateLoadBalancerNodePorts: true
+  clusterIP: 10.99.45.196
+  clusterIPs:
+  - 10.99.45.196
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 32524
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: reactjs-redux-todo-list-web
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer: {}

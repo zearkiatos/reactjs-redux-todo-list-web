@@ -1,0 +1,55 @@
+{
+  "name": "reactjs-redux-todo-list-web",
+  "version": "0.1.0",
+  "description": "This is a todo list web application project made in reactjs ⚛️ to understand, practice and learn redux",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:watch": "nodemon start",
+    "dev": "npm run start:watch",
+    "build": "react-scripts build",
+    "build:ci": "CI=false npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "firebase:deploy": "firebase deploy",
+    "prefirebase:deploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-runtime": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "dotenv": "^16.3.1",
+    "firebase": "^10.1.0",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}
